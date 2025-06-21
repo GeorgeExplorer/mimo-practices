@@ -17,3 +17,12 @@ mode = "sequential"
 [[workflows.workflow.tasks]]
 task = "shell.exec"
 args = "python3 python_basics/creating_variables/task_1_create_and_update_variables/task_1_create_and_update_variables.py"
+
+[[workflows.workflow]]
+name = "Simple Python Run"
+author = 41166844
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python3 python_basics/creating_variables/task_1_create_and_update_variables/task_1_create_and_update_variables.py"
