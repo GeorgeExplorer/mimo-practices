@@ -1,45 +1,43 @@
-# 💰 Task 2: Display Monthly Savings
+# 🧮 Task 2: Calculate Weekly Expenses
 
 ## 🎯 Goal / Цель задачи
 
 **ENG:**  
-Practice using variables to calculate and display monthly savings from income and expenses.  
-This helps reinforce arithmetic operations and variable use.
+Learn how to perform arithmetic operations and apply rounding to floating-point results.  
+This task strengthens your skills in variables, math operations, and the `round()` function.
 
 **RUS:**  
-Научиться использовать переменные для вычислений и отображения ежемесячных накоплений.  
-Закрепляем арифметику и работу с переменными.
+Научиться выполнять арифметические операции и округлять результат с плавающей точкой.  
+Задача помогает закрепить работу с переменными, математикой и функцией `round()`.
 
 ---
 
 ## 📌 Description (ENG)
 
 Create two variables:
-- `income` — stores your total monthly income (e.g. 50000)
-- `expenses` — stores your monthly expenses (e.g. 32000)
+- One for your weekly income.
+- Another for your weekly expenses.
 
-Calculate the monthly savings by subtracting expenses from income.
-
-Display the result using an f-string:
-`You saved <amount> this month!`
+Calculate the remaining balance and print it **rounded to 2 decimal places**  
+using the `round()` function.
 
 ---
 
 ## 📌 Описание (RUS)
 
 Создай две переменные:
-- `income` — хранит твой месячный доход (например, 50000)
-- `expenses` — хранит месячные траты (например, 32000)
+- Для еженедельного дохода.
+- Для еженедельных расходов.
 
-Вычисли накопления за месяц: доход минус расходы.
-
-Выведи результат с помощью f-строки:
-`You saved <amount> this month!`
+Вычисли оставшийся баланс и выведи его **с округлением до 2 знаков после запятой**  
+с помощью функции `round()`.
 
 ---
 
 ## ✅ Example Output
 
-```
-You saved 18000 this month!
+```python
+Weekly income: 500.0
+Weekly expenses: 323.6
+Remaining balance: 176.4
 ```
