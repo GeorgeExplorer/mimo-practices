@@ -24,3 +24,12 @@ author = 41166844
 [[workflows.workflow.tasks]]
 task = "shell.exec"
 args = "python3 python_basics/creating_variables/task_2_greet_the_user/task_2_greet_the_user.py"
+
+[[workflows.workflow]]
+name = "Run task 3: task_3_variable_mutation/"
+mode = "sequential"
+author = 41166844
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python3 python_basics/creating_variables/task_3_swap_two_variables/task_3_swap_two_variables.py"
