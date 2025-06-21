@@ -35,10 +35,19 @@ task = "shell.exec"
 args = "python3 python_basics/creating_variables/task_3_swap_two_variables/task_3_swap_two_variables.py"
 
 [[workflows.workflow]]
-name = "Run task 4: task_1_calculate_remaining_budget"
+name = "Run task 4: task_4_calculate_remaining_budget"
 mode = "sequential"
 author = 41166844
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "python3 python_basics/using_variables/task_1_calculate_remaining_budget/task_1_calculate_remaining_budget.py"
+args = "python3 python_basics/using_variables/task_4_calculate_remaining_budget/task_4_calculate_remaining_budget.py"
+
+[[workflows.workflow]]
+name = "Run task 5: task_5_calculate_weekly_expenses"
+mode = "sequential"
+author = 41166844
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python3 python_basics/using_variables/task_5_calculate_weekly_expenses/task_5_calculate_weekly_expenses.py"
