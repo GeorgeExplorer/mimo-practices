@@ -5,3 +5,15 @@ channel = "stable-24_05"
 
 [deployment]
 run = ["sh", "-c", "python3 $REPL_FILE"]
+
+[workflows]
+runButton = "Run Task 1"
+
+[[workflows.workflow]]
+name = "Run Task 1"
+author = 41166844
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python3 python_basics/creating_variables/task_1_create_and_update_variables/task_1_create_and_update_variables.py"
