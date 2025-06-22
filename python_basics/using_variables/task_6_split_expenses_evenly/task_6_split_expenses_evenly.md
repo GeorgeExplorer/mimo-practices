@@ -1,44 +1,58 @@
-# 💸 Task 6: Split Expenses Evenly
+# 💰 Task 6: Split Expenses Evenly
 
 ## 🎯 Goal / Цель задачи
 
 **ENG:**  
-Learn how to use integer division (`//`) and modulus (`%`) to split expenses evenly among people.  
-This helps you practice variable updates, arithmetic, and remainder operations.
+Calculate how to fairly split weekly expenses among three people,  
+based on their individual incomes. Learn how to use variables,  
+basic arithmetic operations, and integer division/modulo.
 
 **RUS:**  
-Научиться использовать целочисленное деление (`//`) и остаток от деления (`%`) для равного распределения расходов между людьми.  
-Это поможет закрепить работу с переменными, арифметикой и операцией остатка.
+Рассчитать, как справедливо разделить общие недельные расходы между тремя людьми  
+с учётом их индивидуальных доходов. Научиться использовать переменные,  
+базовые арифметические операции, целочисленное деление и остаток от деления.
 
 ---
 
 ## 📌 Description (ENG)
 
-You have a total amount of money (e.g., income) and a total weekly expense.  
-You want to **split the expenses equally among 3 people**.
+You have 3 people, each with their own income.  
+There is a total weekly expense for all three combined.
 
-Calculate:
-1. How much each person should pay (integer division).
-2. How much will remain as **extra cents** (remainder).
-3. Print the result in a readable format using f-strings.
+1. Ask each person for their income.
+2. Calculate the total combined income.
+3. Ask for the total weekly expenses.
+4. Calculate how much **each person should pay** if expenses are split equally (use `//`).
+5. Calculate how much **of the expenses remain unpaid** due to uneven split (use `%`).
+6. Calculate how much money **remains in total after all expenses**.
+7. Calculate how much money remains for each person individually after paying their share.
 
 ---
 
 ## 📌 Описание (RUS)
 
-У тебя есть общий доход и сумма еженедельных расходов.  
-Ты хочешь **разделить расходы поровну между 3 людьми**.
+Есть 3 человека, у каждого — свой доход.  
+Также есть общая сумма расходов за неделю.
 
-Вычисли:
-1. Сколько платит каждый человек (целочисленное деление).
-2. Сколько остаётся "лишних копеек" (остаток от деления).
-3. Выведи результат в читаемом формате с помощью f-строк.
+1. Запроси доход каждого человека.
+2. Посчитай общий доход всех троих.
+3. Запроси общую сумму недельных расходов.
+4. Посчитай, **сколько должен заплатить каждый**, если расходы делятся поровну (используй `//`).
+5. Посчитай, **какая часть расходов остаётся неоплаченной**, если они не делятся ровно (используй `%`).
+6. Посчитай, **сколько всего денег остаётся после оплаты расходов**.
+7. Определи, сколько денег остаётся у каждого человека индивидуально после его части оплаты.
 
 ---
 
 ## ✅ Example Output
 
 ```
-Each person should pay: 33  
-Remaining cents: 1
+Total income: 3000
+Total weekly expenses: 1000
+Each person should pay: 333
+Remaining expenses amount to pay: 1
+Total remaining balance of the income: 2000
+Person 1 remains: 667
+Person 2 remains: 667
+Person 3 remains: 667
 ```

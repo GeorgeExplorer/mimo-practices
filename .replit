@@ -51,3 +51,12 @@ author = 41166844
 [[workflows.workflow.tasks]]
 task = "shell.exec"
 args = "python3 python_basics/using_variables/task_5_calculate_weekly_expenses/task_5_calculate_weekly_expenses.py"
+
+[[workflows.workflow]]
+name = "Run task 6: task_6_split_expenses_evenly.md"
+mode = "sequential"
+author = 41166844
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python3 python_basics/using_variables/task_6_split_expenses_evenly/task_6_split_expenses_evenly.py"
