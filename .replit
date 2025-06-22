@@ -60,3 +60,12 @@ author = 41166844
 [[workflows.workflow.tasks]]
 task = "shell.exec"
 args = "python3 python_basics/using_variables/task_6_split_expenses_evenly/task_6_split_expenses_evenly.py"
+
+[[workflows.workflow]]
+name = "Run task 7: task_7_check_if_over_100"
+mode = "sequential"
+author = 41166844
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python3 python_basics/true_and_false/task_7_check_if_over_100/task_7_check_if_over_100.py"
