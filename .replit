@@ -87,3 +87,12 @@ author = 41166844
 [[workflows.workflow.tasks]]
 task = "shell.exec"
 args = "python3 python_basics/true_and_false/task_9_find_logical_winner/task_9_find_logical_winner.py"
+
+[[workflows.workflow]]
+name = "Run task 10: task_10_check_number_range"
+mode = "sequential"
+author = 41166844
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python3 types_and_comparisons/comparing_numbers/task_10_check_number_range/task_10_check_number_range.py"
