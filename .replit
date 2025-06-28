@@ -96,3 +96,12 @@ author = 41166844
 [[workflows.workflow.tasks]]
 task = "shell.exec"
 args = "python3 types_and_comparisons/comparing_numbers/task_10_check_number_range/task_10_check_number_range.py"
+
+[[workflows.workflow]]
+name = "Run task 11: task_11_check_login"
+mode = "sequential"
+author = 41166844
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python3 types_and_comparisons/comparing_strings/task_11_check_login/task_11_check_login.py"

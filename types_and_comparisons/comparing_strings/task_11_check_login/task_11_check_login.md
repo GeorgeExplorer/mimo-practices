@@ -22,7 +22,8 @@ Write a program that checks the username and password.
 2. Your program should:
    - Print `"Access granted."` if `username` is `"admin"` **and** `password` is `"1234"`.
    - Print `"Wrong password."` if `username` is `"admin"` but the password is not `"1234"`.
-   - Print `"Unknown user."` if `username` is not `"admin"`.
+   - Print `"Wrong username."` if `username` is not `"admin"` but the password is `"1234"`.
+   - Otherwise print `"User not found"`
 
 ---
 
@@ -37,7 +38,8 @@ Write a program that checks the username and password.
 2. Твоя программа должна:
    - Вывести `"Access granted."`, если `username` равно `"admin"` **и** `password` равно `"1234"`.
    - Вывести `"Wrong password."`, если `username` равно `"admin"`, но пароль не `"1234"`.
-   - Вывести `"Unknown user."`, если `username` не `"admin"`.
+   - Вывести `"Wrong username."`, если `username` не `"admin"`, но пароль равно `"1234"`.
+   - В противном случае, вывести `"User not found"`
 
 ---
 
@@ -61,5 +63,11 @@ Wrong password.
 username = "guest"
 password = "1234"
 # Output:
-Unknown user.
+Wrong username.
+```
+```python
+username = "guest"
+password = "something"
+# Output:
+User not found
 ```
