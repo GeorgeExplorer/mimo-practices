@@ -78,3 +78,12 @@ author = 41166844
 [[workflows.workflow.tasks]]
 task = "shell.exec"
 args = "python3 python_basics/true_and_false/task_8_check_multiple_conditions/task_8_check_multiple_conditions.py"
+
+[[workflows.workflow]]
+name = "Run task 9: task_9_find_logical_winner"
+mode = "sequential"
+author = 41166844
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python3 python_basics/true_and_false/task_9_find_logical_winner/task_9_find_logical_winner.py"
