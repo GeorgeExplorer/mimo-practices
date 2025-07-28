@@ -8,24 +8,6 @@ channel = "stable-24_05"
 runButton = "Run Task 1"
 
 [[workflows.workflow]]
-name = "Run Task 1: task_1_create_and_update_variables"
-author = 41166844
-mode = "sequential"
-
-[[workflows.workflow.tasks]]
-task = "shell.exec"
-args = "python3 python_basics/creating_variables/task_1_create_and_update_variables/task_1_create_and_update_variables.py"
-
-[[workflows.workflow]]
-name = "Run task 2: task_2_greet_the_user.md"
-mode = "sequential"
-author = 41166844
-
-[[workflows.workflow.tasks]]
-task = "shell.exec"
-args = "python3 python_basics/creating_variables/task_2_greet_the_user/task_2_greet_the_user.py"
-
-[[workflows.workflow]]
 name = "Run task 3: task_3_variable_mutation/"
 mode = "sequential"
 author = 41166844
@@ -114,3 +96,12 @@ author = 41166844
 [[workflows.workflow.tasks]]
 task = "shell.exec"
 args = "python3 types_and_comparisons/discovering_types/task_12_check_number_type/task_12_check_number_type.py"
+
+[[workflows.workflow]]
+name = "Run task 13: task_13_check_full_loan_eligibility"
+mode = "sequential"
+author = 41166844
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python3 conditional_statements/conditions/task_13_check_full_loan_eligibility/task_13_check_full_loan_eligibility.py"
